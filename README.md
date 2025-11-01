@@ -1,4 +1,4 @@
-# FRONTEND FOR Tech Solutions Pro Assessment
+# FRONTEND for Tech Solutions Pro Assessment
 
 ## Features
 
@@ -16,6 +16,7 @@ Make sure you have installed:
 
 - Node.js (>= 18)
 - npm or yarn or pnpm
+- backend api server
 
 ---
 
@@ -34,6 +35,7 @@ npm install
 ```bash
 npm run dev
 ```
+### Run backend from repo https://github.com/Rohail100/backend-tsp
 
 ## Build for Production and Preview
 
