@@ -14,7 +14,6 @@ export const StoreProvider = ({ children }) => {
       try {
         const staffData = await get("/staff");
         const roomsData = await get("/hotel/rooms");
-        console.log("Fetched rooms data:", roomsData);
         setStaff(staffData);
         setRooms(roomsData);
       } catch (err) {
