@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import AppLayout from "./AppLayout";
 import AboutPage from "./pages/AboutPage";
-import Booking from "./pages/Booking";
+import BookingPage from "./pages/BookingPage";
 import './App.css'
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <AppLayout>
       <Routes>
         <Route path="/" element={<AboutPage />} />
-        <Route path="/booking" element={<Booking />} />
+        <Route path="/booking" element={<BookingPage />} />
       </Routes>
     </AppLayout>
   );

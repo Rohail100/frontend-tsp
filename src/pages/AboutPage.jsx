@@ -1,4 +1,4 @@
-import Hero from "../components/about/Hero";
+import Hero from "../components/common/Hero";
 import AboutIntro from "../components/about/AboutIntro";
 import Stats from "../components/about/Stats";
 import Skills from "../components/about/Skills";
@@ -8,7 +8,7 @@ import Clients from "../components/about/Clients";
 
 const AboutPage = () => (
   <>
-    <Hero />
+    <Hero page={"About Us"} />
     <AboutIntro />
     <Stats />
     <Skills />
